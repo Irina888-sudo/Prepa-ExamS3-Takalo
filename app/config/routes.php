@@ -18,8 +18,12 @@ $router->group('', function(Router $router) use ($app) {
         $app->render('model.php', ['page' => 'home.php']);
     });
 
-    $router->get('/ride/list-objets', function() use ($app) {
+    $router->get('/exchange/list-objets', function() use ($app) {
         $app->render('model.php', ['page' => 'list-objets.php']);
+    });
+
+    $router->get('/exchange/list-users', function() use ($app) {
+        $app->render('model.php', ['page' => 'list-users.php']);
     });
 
 }, [SecurityHeadersMiddleware::class]);

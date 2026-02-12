@@ -7,6 +7,7 @@ ETAPE 1: (Presentation)
      -exchanges.php
      (MIHAJA)-list-objets.php
      -list-propositons.php
+     -home.php
 
 ETAPE 2: (Business)
     Models:
@@ -27,7 +28,7 @@ ETAPE 2: (Business)
         - ExchangeService.php
     Controller:
         - ObjectExchangeController.php
-            |(SANDRO)-> showAllObj() -> Miantso an le findAllObj()
+            |OK-(SANDRO)-> showAllObj() -> Miantso an le findAllObj()
             |-> showObjByUserId()
         - UserController.php
             |(SANDRO)-> showAllUsers() -> Miantso an le findAllUsers()
