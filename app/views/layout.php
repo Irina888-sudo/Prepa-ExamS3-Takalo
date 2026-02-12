@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moto Milay Corporation</title>
+    <title>Echange Milay Corporation</title>
     <link rel="stylesheet" href="/assets/css/model.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
     </main>
 
     <footer>
-        © 2026 Mihaja-ETU4016 & Jonathan-ETU4392 & Sandro-ETU4110 
+        © 2026 Mihaja-ETU4016 & Sandro-ETU4110 & Jonathan-ETU4392 
     </footer>
 
 </body>
