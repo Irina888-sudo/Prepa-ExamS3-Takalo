@@ -6,3 +6,29 @@ ETAPE 1: (Presentation)
      -list-objet-by-user.php
      -echanges.php
      -list-propositons.php
+
+ETAPE 2: (Business)
+    Models:
+        - ObjectExchange.php
+        - User.php
+        - Exchange.php
+    Repositories:
+        - ObjectExchangeRepository.php
+        - UserRepository.php
+        - ExchangeRepository.php
+    Services:
+        - ObjectExchangeService.php
+        - UserService.php
+        - ExchangeService.php
+    Controller:
+        - ObjectExchangeController.php
+        - UserController.php
+        - ExchangeController.php
+ 
+ETAPE 3: (Database)
+ * Liste tables SQL:
+     - object_exchange (id, name, id_user)
+     - user (id_user, name)
+     - exchange (id_exchange, id_sender, id_receiver, id_obj_sender, id_obj_receiver)
+
+
