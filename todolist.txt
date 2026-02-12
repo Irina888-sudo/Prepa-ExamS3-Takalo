@@ -2,9 +2,10 @@ TODOLIST SITE WEB D'ECHANGE D'OBJETS:
 ------------------------------------------
 ETAPE 1: (Presentation)
  * Pages importants:
-     -list-user.php
+     (MIHAJA)-list-user.php
      -list-objet-by-user.php
-     -echanges.php
+     -exchanges.php
+     (MIHAJA)-list-objets.php
      -list-propositons.php
 
 ETAPE 2: (Business)
@@ -14,9 +15,10 @@ ETAPE 2: (Business)
         - Exchange.php
     Repositories:
         - ObjectExchangeRepository.php
-            |-> findAllObj(), findObjectByUserId(user_id)
+            |(JONATHAN)-> findAllObj(), 
+            findObjectByUserId(user_id)
         - UserRepository.php
-            |-> findAllUsers() 
+            |(JONATHAN)-> findAllUsers() 
         - ExchangeRepository.php
             |-> findAllExchanges(), saveExchange(Exchange)
     Services:
@@ -25,10 +27,10 @@ ETAPE 2: (Business)
         - ExchangeService.php
     Controller:
         - ObjectExchangeController.php
-            |-> showAllObj() -> Miantso an le findAllObj()
+            |(SANDRO)-> showAllObj() -> Miantso an le findAllObj()
             |-> showObjByUserId()
         - UserController.php
-            |-> showAllUsers() -> Miantso an le findAllUsers()
+            |(SANDRO)-> showAllUsers() -> Miantso an le findAllUsers()
         - ExchangeController.php
             |-> saveExchange() -> Miantso an le saveExchange() ao am le Repositories
  
