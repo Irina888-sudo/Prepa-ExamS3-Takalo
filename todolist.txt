@@ -34,7 +34,7 @@ ETAPE 2: (Business)
  
 ETAPE 3: (Database)
  * Liste tables SQL:
-     - object_exchange (id, name, id_user)
+     - object_exchange (id, name, id_user, image)
      - user (id_user, name)
      - exchange (id_exchange, id_sender, id_receiver, id_obj_sender, id_obj_receiver)
 
