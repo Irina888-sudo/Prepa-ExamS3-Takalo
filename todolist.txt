@@ -1,0 +1,8 @@
+TODOLIST SITE WEB D'ECHANGE D'OBJETS:
+------------------------------------------
+ETAPE 1: (Presentation)
+ * Pages importants:
+     -list-user.php
+     -list-objet-by-user.php
+     -echanges.php
+     -list-propositons.php
