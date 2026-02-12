@@ -3,27 +3,25 @@
 namespace app\controllers;
 
 use flight\Engine;
-use app\models\InfoRide;
+use app\repositories\ObjectExchangeRepository;
 
-class InfoRideController
+class ObjectExchangeController
 {
     protected Engine $app;
-    protected InfoRide $infoRide;
+    protected ObjectExchangeRepository $objectExchangeRepository;
 
-    public function __construct(Engine $app){
+    public function __construct(Engine $app, ObjectExchangeRepository $objectExchangeRepository){
         $this->app = $app;
-        $this->infoRide = new InfoRide();
+        $this->objectExchangeRepository = $objectExchangeRepository;
     }
 
-    public function showFormRide(){
-        $drivers = $this->infoRide->getAllDrivers();
-        $motos   = $this->infoRide->getAllMotos();
+    public function showAllObj(){
+        $objectsExchange = $this->objectExchangeRepository->findAllObj();
 
         $this->app->render('model.php', [
-            'drivers' => $drivers,
-            'motos'   => $motos,
+            'objectsExchange' => $objectsExchange,
             'errors'  => [],
-            'page' => 'Form-ride.php'
+            'page' => 'list-objets.php'
         ]);
     }
    
