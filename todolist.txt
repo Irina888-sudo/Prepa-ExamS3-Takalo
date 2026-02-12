@@ -31,7 +31,7 @@ ETAPE 2: (Business)
             |OK-(SANDRO)-> showAllObj() -> Miantso an le findAllObj()
             |-> showObjByUserId()
         - UserController.php
-            |(SANDRO)-> showAllUsers() -> Miantso an le findAllUsers()
+            |OK-(SANDRO)-> showAllUsers() -> Miantso an le findAllUsers()
         - ExchangeController.php
             |-> saveExchange() -> Miantso an le saveExchange() ao am le Repositories
  

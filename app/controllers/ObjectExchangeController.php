@@ -21,7 +21,7 @@ class ObjectExchangeController
         $this->app->render('model.php', [
             'objectsExchange' => $objectsExchange,
             'errors'  => [],
-            'page' => 'list-objets.php'
+            'page' => 'list-objects.php'
         ]);
     }
    
