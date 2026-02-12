@@ -14,16 +14,23 @@ ETAPE 2: (Business)
         - Exchange.php
     Repositories:
         - ObjectExchangeRepository.php
+            |-> findAllObj(), findObjectByUserId(user_id)
         - UserRepository.php
+            |-> findAllUsers() 
         - ExchangeRepository.php
+            |-> findAllExchanges(), saveExchange(Exchange)
     Services:
         - ObjectExchangeService.php
         - UserService.php
         - ExchangeService.php
     Controller:
         - ObjectExchangeController.php
+            |-> showAllObj() -> Miantso an le findAllObj()
+            |-> showObjByUserId()
         - UserController.php
+            |-> showAllUsers() -> Miantso an le findAllUsers()
         - ExchangeController.php
+            |-> saveExchange() -> Miantso an le saveExchange() ao am le Repositories
  
 ETAPE 3: (Database)
  * Liste tables SQL:
