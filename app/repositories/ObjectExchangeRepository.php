@@ -1,10 +1,15 @@
 <?php
 
+namespace app\repositories;
+
+use Flight; 
+use PDO;
+
 class ObjectExchangeRepository {
     private PDO $db;
 
-    public function __construct(PDO $db) {
-        $this->db = $db;
+    public function __construct() {
+        $this->db = Flight::db();
     }
 
     public function findAllObj(): array {

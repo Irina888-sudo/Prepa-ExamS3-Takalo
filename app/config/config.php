@@ -66,11 +66,15 @@ return [
 	 *         Database Settings          *
 	 **************************************/
 	'database' => [
-		'host' => 'localhost:8889',
-		'dbname' =>'tpflight',
-		'user' => 'mihaja',
-		'password' => 'success'
+		// MySQL Example:
+		'host'     => '127.0.0.1',
+		'port'	   => '3306',      // Database host (e.g., 'localhost', 'db.example.com')
+		'dbname'   => 'prepa_exam_S3_takalo',   // Database name (e.g., 'flightphp')
+		'user'     => 'root',  // Database user (e.g., 'root')
+		'password' => '',  // Database password (never commit real passwords)
 
+		// SQLite Example:
+		// 'file_path' => __DIR__ . $ds . '..' . $ds . 'database.sqlite', // Path to SQLite file
 	],
 
 	// Google OAuth Credentials

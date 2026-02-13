@@ -10,9 +10,9 @@ class ObjectExchangeController
     protected Engine $app;
     protected ObjectExchangeRepository $objectExchangeRepository;
 
-    public function __construct(Engine $app, ObjectExchangeRepository $objectExchangeRepository){
+    public function __construct(Engine $app){
         $this->app = $app;
-        $this->objectExchangeRepository = $objectExchangeRepository;
+        $this->objectExchangeRepository = new ObjectExchangeRepository();
     }
 
     public function showAllObj(){
