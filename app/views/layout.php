@@ -23,7 +23,7 @@
     </main>
 
     <footer>
-        © 2026 Jonathan-ETU4392 & Mihaja-ETU4016 & Sandro-ETU4110 
+        © 2026 Jonathan-etu4392 & Mihaja-etu4016 & Sandro-etu4110 
     </footer>
 
 </body>
